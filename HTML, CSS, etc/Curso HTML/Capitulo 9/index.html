@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo 9</title>
+</head>
+<body>
+    <!-- Sirve para agregar direcciones de contacto
+    <address>
+        Contactame <a href="#">a mi correo</a> <br>
+        Paseos de la remosa sin numero #9 <br>
+        A mi telefono  [672928187]
+    </address> 
+    
+    <fieldset> Organizar el formulario en campos
+    <legend> nombre para fieldset
+    <optgroup> Crear agrupaciones de opciones dentro de un select
+    <datalist> Nos proporciona listas de elementos q podemos buscar
+    contenteditable = " " -> Para editar como usuario
+    -->
+    <form action="">
+        <fieldset>
+            <legend>Dame tus datos</legend>
+            <label >Superheroe Favorito</label>
+            <select >
+                <optgroup label="Marvel">
+                    <option value="spiderman">Spiderman</option>
+                    <option value="ironman">Ironman</option>
+                    <option value="blackpanther">Black panther</option>
+                </optgroup>
+                <optgroup label="DC Comics">
+                    <option value="batman">Batman</option>
+                    <option value="superman">Superman</option>
+                    <option value="wonderwoman">Wonderwoman</option>
+                </optgroup>
+                
+            </select>
+
+            <br><br>
+        </fieldset>
+
+        <br><br>
+
+        
+        <label>Busca a tu superheroe</label>
+        <input list="heroes">
+        <datalist id="heroes">
+            <option value="spiderman">Spiderman</option>
+            <option value="ironman">Ironman</option>
+            <option value="blackpanther">Black panther</option>
+            <option value="batman">Batman</option>
+            <option value="superman">Superman</option>
+            <option value="wonderwoman">Wonderwoman</option>
+        </datalist>
+
+
+
+    </form>    
+
+
+    <h1 contenteditable="true">Hola mundo soy Jordan y soy editable</h1>
+</body>
+</html>

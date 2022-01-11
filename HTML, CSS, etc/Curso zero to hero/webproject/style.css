@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Para q el borde de la caja(box) no crezca con el resto de pixeles en padding */
+}
+/* .xxx El punto siempre se utiliza para clases */
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  /* Para quitar los puntos * en la lista */
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+p{
+  color: #555;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.text{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* wrap = responsive view */
+  justify-content: space-around;
+  /* spaces between elements */
+}
+.childtext{
+  flex-basis: 50%;
+  /* to not see useles spaces arround */
+  min-width: 300px;
+}
+.childtext img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+.childtext h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.button{
+  display: inline-block;
+  background-color: coral;
+  color: white;
+  margin: 30px 0;
+  padding: 8px 30px;
+  border-radius: 30px;
+  transition: background 2s
+  /* transition para q cuando cambie de color por el hover, sea con una sierta cantidad de segundos de transicion */
+}
+header{
+  background: radial-gradient(coral,white)
+  /* para tener como difuminado en la pagina, el mas a la izquierda es el del centro */
+}
+header .text{
+  margin-top: 60px;
+}
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+/* hover es lo que hace q cambie de color cuando pones el mouse por encima */
+.button:hover{
+  background: red;
+}
+.second-container{
+  margin: 70px 0;
+}
+.child-pictures{
+  flex-basis: 30%;
+  min width: 250px;
+  margin-bottom: 20px;
+}
+.child-pictures img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.four-pictures{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.four-pictures img{
+  width: 100%;
+}
+.four-pictures:hover{
+  transition: translateY(-7px);
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: coral;
+}
+.title:after{
+  content: '';
+  background: coral;
+  width: 60px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transition: translateX(-50%);
+}
+.fa{
+  color: red;
+}
+.four-pictures p{
+  font-size: 15px;
+}
+.offer{
+  background: radial-gradient(coral,white);
+  padding: 30px 0;
+}
+footer{
+  margin: 100px auto;
+}
+.brands{
+  width: 150px
+}
+.brands img{
+  width: 100%;
+  cursor: pointer;
+  /* cuando vas con el cursor hacia las imagenes estas tendran el efecto que pusiste */
+  filter: grayscale(100%);
+  /* escala de grises, puede ser cualquier porcentaje, 100 es el maximo */
+}
+.brands img:hover{
+  filter: grayscale(0);
+}
+footer{
+  background-color: radial-gradient(coral,white); 
+}

@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-sans-serif;
+  font-size: 16px;
+}
+
+/* 1em = una unidad de medida
+  1em = 16px*/
+
+img{
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  width: 10%;
+}
+
+nav{
+  background-color: steelblue;
+  text-align: center;
+}
+
+nav a{
+  color: #FFF;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+nav a:hover{
+  color: tomato;
+}
+
+section{
+  float: left;
+  margin: 0.5em 0 0.5em 0;
+  height: auto;
+  width: 55%;
+}
+
+article{
+  border: 1px solid #CCC;
+  margin-top: 0.5em;
+  padding: 1em;
+}
+
+p{
+  text-align: justify;
+}
+
+aside{
+  background-color: #F7F7F7;
+  float: left;
+  height: auto;
+  margin-top: 0.5em;
+  width: 33%
+  padding: 1em;
+}
+
+footer{
+  background-color: steelblue;
+  bottom: 0;
+  float: left;
+  padding: 1em 0 1em 0;
+  position: fixed;
+  width: 100%
+}
+
+footer p{
+  color: #FFF;
+  font-size: 0.9em;
+  text-align: center;
+
+}

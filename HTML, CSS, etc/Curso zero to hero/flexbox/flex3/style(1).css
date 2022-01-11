@@ -1,0 +1,40 @@
+.flex-container{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap-reverse;
+  /* wrap para mantener su forma, sin achicarse ni nada */
+
+}
+.box1{
+  border: solid black; width: 150px;height: 65px;
+  background-color: lightblue;
+  margin-top: 20px;
+  margin-left: 20px
+}
+.box2{
+  border: solid black; width: 150px; height: 100px;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 20px
+}
+.box3{
+  border: solid black; width: 150px;height: 65px;
+  background-color: lightblue;
+  margin-top: 20px;
+  margin-left: 20px
+}
+.box4{
+  border: solid black; width: 150px; height: 100px;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 20px
+}
+.box5{
+  border: solid black; width: 150px;height: 65px;
+  background-color: lightblue;
+  margin-top: 20px;
+  margin-left: 20px
+}
+body{
+  background-color: yellow
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style type="text/css">
+            body {
+                background: pink;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* porniendo un . al comienzo es para una clase */
+            .mama {
+                background: lightblue;
+            }
+
+            /* id selectors star with #, los id no pueden repetirse varias veces en un mismo archivo html, como lo hacen las clases */
+            #div1 {
+                color: blue;
+                background: yellow;
+                text-decoration: underline;
+                border: 3px solid black;
+                margin: 0 0 50px 50px;
+                padding: 30px 0 0 30px;
+                /* top - right - bottom - left */
+            }
+            /* position: static - relative (to his parent, not only the page itself) - absolute - fixed (no se mueve, tipo un menu) */
+            /* float: right - left - center - etc */
+            /* z-index: 1-2-3-etc -- mientras mas grande el numero, la prioridad sera mayor y por lo tanto ira primero en la pagina */
+        </style>
+
+    </head>
+    <body>
+
+        <h1 class="mama">Hola</h1>
+        <h2><sapn class="mama">Gola</sapn>xGola</h2>
+        <h3 id="div1">Tola</h3>
+        
+    </body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <!-- <audio> - Defines sound content -->
+    <audio src="https://www.w3schools.com/html/horse.ogg" controls autoplay loop muted >
+      <!--example-->
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    </audio>
+
+    <!-- <source> - Defines multiple media resources for media elements (<video>, <audio> and <picture>) -->
+    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+
+    <!-- <track> - Defines text tracks for media elements (<video> and <audio>) -->
+    <!--mainly used for videos-->
+    <track kind="subtitles" src="sampleSubtitles_en.srt" srclang="en">
+
+    <!-- <video> - Defines a video or movie-->
+    <video src="videofile.ogg" autoplay poster="posterimage.jpg" controls autoplay loop muted>
+      <!--controls is the buttons necesary to control the video/audio-->
+    </video>
+
+  </body>
+</html>

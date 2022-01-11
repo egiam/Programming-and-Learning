@@ -1,0 +1,23 @@
+#myid{
+  color:red
+}
+#style{
+  background-color: red
+}
+.myclass{
+  color: blue
+}
+
+
+.class2{
+  color: lightblue
+}
+
+.background_class{
+  background-color: yellow
+}
+
+/* h1+h2 = the h2 that comes after the h1*/
+h1+h2{
+  color: brown;
+}

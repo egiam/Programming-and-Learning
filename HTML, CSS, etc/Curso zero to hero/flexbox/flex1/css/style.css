@@ -1,0 +1,46 @@
+.flex-container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+/* .flex-container{
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+.box1{
+  border: solid black ;width: 120px;height: 65px;
+  background-color: lightblue
+  ;margin-top: 20px
+  ;margin-left: 20px;
+  /* order: x(?) sirve para colocar el orden en el q queres cada cos */
+}
+.box2{
+  border: solid black ;width: 120px;height: 100px;
+  background-color: red
+  ;margin-top: 20px
+  ;margin-left: 20px
+}
+.box3{
+  border: solid black ;width: 120px;height: 65px;
+  background-color: lightblue
+  ;margin-top: 20px
+  ;margin-left: 20px
+}
+.box4{
+  border: solid black ;width: 120px;height: 100px;
+  background-color: red
+  ;margin-top: 20px
+  ;margin-left: 20px
+}
+.box5{
+  border: solid black ;width: 120px;height: 65px;
+  background-color: lightblue
+  ;margin-top: 20px
+  ;margin-left: 20px;
+
+}
+body{
+  background-color: yellow
+}
