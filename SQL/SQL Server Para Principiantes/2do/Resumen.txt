@@ -1,0 +1,148 @@
+SQL Server para Principiantes Udemy
+
+---------------------------------------------------
+Select AlumnoID, Telefono from Alumno
+Para seleccionar datos
+Select [campo] from [tabla]
+
+---------------------------------------------------
+Insert into [tabla] ([campo1,campo2,campo3,...])
+Values ([valor1{campo1},valor2{campo2}, ...])
+
+---------------------------------------------------
+Update [tabla] set [columna = valor] where [condicion{columna = xvalor}]
+
+---------------------------------------------------
+Delete [tabla] where [campo/columna = valor]
+
+---------------------------------------------------
+Select * from tabla WHERE [campo = valor] and etc...
+
+---------------------------------------------------
+Select * from tabla ORDER BY [campo] [asc = ascendente || desc = descendente]
+
+---------------------------------------------------
+Select TOP [cantidad del top{ej: 2}] * from [tabla] (order by [campo])
+
+---------------------------------------------------
+Select DISTINCT [campo] from [tabla]
+
+---------------------------------------------------
+Select * from [tabla]
+update [tabla] set [campo = valor] where [campo = valor de condicion]
+
+Select [campo, campo] from [tabla] GROUP BY [campo, campo]
+
+Ej:
+Select Apellido, Direccion, SUM(sueldo) SueldoSumado from Maestro GROUP BY Apellido, Direccion
+
+---------------------------------------------------
+Select * from Producto where PrecioEspecial > 8 AND Stock < 9
+
+---------------------------------------------------
+Select * from Producto where ProductoID > 4 OR Stock > 5
+
+---------------------------------------------------
+Select * from Maestro where Nombre IN ([valor],[valor])
+
+---------------------------------------------------
+Select * from Producto where nombre LIKE '%pastel%' (%% Para buscar esa palabra en especifico)
+%cafe%eche%
+p% (Todos los q empiezan con esa/s letra/s)
+%e (Todos los q terminan con esa/s letra/s)
+p&e (Todos los q empiezen o terminen con esas letras)
+
+---------------------------------------------------
+Select * from Maestro where NOT MaestroID = 3
+(NOT = El q no sea esa condicion)
+NOT IN (Lo contrario a IN)
+
+---------------------------------------------------
+Select * from Producto where PrecioEspecial BETWEEN 7 and 12
+(Entre esos numeros)
+
+---------------------------------------------------
+Select SUM(Precio) from Clase 
+(suma toda la columna seleccionada)
+(Si queres ejecutar el SUM mas otra columna necesitas usar el group by)
+
+---------------------------------------------------
+Select AVG(Precio) from Clase
+(Promedio - Average)
+
+---------------------------------------------------
+Select COUNT(*) from Clase 
+(Contar la cantidad de filas)
+
+Select MIN(Precio) From Clase 
+(El minimo de ese campo)
+
+Select MAX(Precio) from Clase
+(El maximo de ese campo)
+
+---------------------------------------------------
+Select ProductoID, Nombre, (Stock * PrecioEspecial) TotalE, (Stock * PrecioPublico) TotalP
+
+---------------------------------------------------
+Select LEN("Texto texto txt")
+(Para saber la cantidad de caracteres en un texto)
+
+---------------------------------------------------
+Select UPPER('Texto Texto')
+Select UPPER(nombre) from Alumno
+(Pasar todo a mayusculas)
+
+Select LOWER(nombre) from Alumno
+(Pasar todo a minusculas)
+
+---------------------------------------------------
+Select CONCAT(Nombre,Apellido) NombreCompleto from Alumno
+(Para unir las columnas en una)
+
+---------------------------------------------------
+Select GETDATE()
+(Da la fecha con la hora actual)
+
+---------------------------------------------------
+Select DATEADD({Year / Month / Week / Day}, 1, '2020-03-25')
+Se puede agregar a la fecha predispuesta; el numero de veces a agregar, para restar ponerlo en negativo; la fecha
+
+---------------------------------------------------
+-- Para obtener fechas en especifico
+Select {Year / Month / Day}(Getdate())
+
+---------------------------------------------------
+Select DATEDIFF({Year / Month / Day / Hour / etc...}, '', '')
+Para comparar fechas
+
+ej:
+Select DATEDIFF(MINUTE, '2020-03-24 08:00', FechaEntrada), FechaEntrada, FechaSalida, NombreMaestro from MarcaMaestros
+
+---------------------------------------------------
+Select * from Inscripccion I INNER JOIN Clase C ON I.ClaseID = C.ClaseID
+(Unir dos tablas distintas en base a lo comun en un cierto registro de una columna)
+Inner join + ON
+
+---------------------------------------------------
+Select * from Inscripccion I LEFT JOIN Maestro M ON I.MaestroID = M.MaestroID
+
+---------------------------------------------------
+Select * from Inscripccion I RIGHT JOIN Maestro M ON I.MaestroID = M.MaestroID
+
+---------------------------------------------------
+Union (Une las tablas, no repite)
+Union All (Repite)
+
+---------------------------------------------------
+ISNULL(,)
+En caso de que el valor sea nulo, el de la derecha es lo q se pondra por defecto
+
+---------------------------------------------------
+Variables
+DECLARE @nombrevariable tipo{int, float, etc..} = valor
+
+---------------------------------------------------
+CASE WHEN [Condicion] THEN [resultado en caso de q la condicion sea verdadera]
+
+---------------------------------------------------
+
