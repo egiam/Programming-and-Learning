@@ -1,0 +1,7 @@
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\bin\Debug\CLASES.exe.config
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\bin\Debug\CLASES.exe
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\bin\Debug\CLASES.pdb
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\obj\Debug\CLASES.csprojAssemblyReference.cache
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\obj\Debug\CLASES.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\obj\Debug\CLASES.exe
+C:\Users\Ezequiel\source\repos\CLASES\CLASES\obj\Debug\CLASES.pdb

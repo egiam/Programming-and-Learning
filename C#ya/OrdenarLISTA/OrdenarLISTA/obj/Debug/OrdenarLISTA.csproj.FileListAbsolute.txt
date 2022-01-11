@@ -1,0 +1,7 @@
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\bin\Debug\OrdenarLISTA.exe.config
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\bin\Debug\OrdenarLISTA.exe
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\bin\Debug\OrdenarLISTA.pdb
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\obj\Debug\OrdenarLISTA.csprojAssemblyReference.cache
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\obj\Debug\OrdenarLISTA.csproj.CoreCompileInputs.cache
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\obj\Debug\OrdenarLISTA.exe
+D:\Programming and Learning\C#ya\OrdenarLISTA\OrdenarLISTA\obj\Debug\OrdenarLISTA.pdb

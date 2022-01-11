@@ -1,0 +1,7 @@
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\bin\Debug\PrimerC.exe.config
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\bin\Debug\PrimerC.exe
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\bin\Debug\PrimerC.pdb
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\obj\Debug\PrimerC.csprojAssemblyReference.cache
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\obj\Debug\PrimerC.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\obj\Debug\PrimerC.exe
+C:\Users\Ezequiel\source\repos\PrimerC\PrimerC\obj\Debug\PrimerC.pdb

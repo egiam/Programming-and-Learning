@@ -1,0 +1,7 @@
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\bin\Debug\CalculoSueldo.exe.config
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\bin\Debug\CalculoSueldo.exe
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\bin\Debug\CalculoSueldo.pdb
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\obj\Debug\CalculoSueldo.csprojAssemblyReference.cache
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\obj\Debug\CalculoSueldo.csproj.CoreCompileInputs.cache
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\obj\Debug\CalculoSueldo.exe
+C:\Programming and Learning\C#ya\CalculoSueldo\CalculoSueldo\obj\Debug\CalculoSueldo.pdb

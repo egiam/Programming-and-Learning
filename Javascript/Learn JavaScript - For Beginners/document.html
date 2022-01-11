@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample JavaScript</title>
+  </head>
+  <body>
+
+    <!-- 1,2 --> <p>The result will be displayed below this line.</p>
+    <!-- 3,5 --> <p id="math"></p>
+    <!-- 4 --> <h1 id="h"></h1>
+    <!-- 4 --> <p id="p"></p>
+    <!-- 7 --> <p id="example"></p>
+    <!-- 8 --> <p id="add"></p>
+    <!-- 8 --> <p id="add2"></p>
+    <!-- 8 --> <p id="add3"></p>
+    <!-- 9 --> <p id="divi"></p>
+    <!-- 9 --> <p id="inc"></p>
+    <!-- 9 --> <p id="dec"></p>
+    <!-- 10 --> <p id="demo"></p>
+    <!-- 11 --> <p id="demo1"></p>
+    <!-- 12 --> <p id="demo2"></p>
+    <!-- 13 --> <p id="demo3"></p>
+    <!-- 14 --> <p id="demo4"></p>
+    <!-- 15 --> <p id="demo5"></p>
+    <!-- 16 --> <p id="demo6"></p>
+    <!-- 17 --> <p id="demo7"></p>
+    <!-- 18 --> <p id="demo8"></p>
+    <!-- 19 --> <p id="demo9"></p>
+    <!-- 20 --> <p id="demo10"></p>
+    <!-- 21 --> <p id="demo11"></p>
+    <!-- 22 --> <p id="demo12"></p>
+    <!-- 23 --> <p id="demo13"></p>
+    <!-- 24 --> <p id="demo14"></p>
+    <!-- 25 --> <p id="demo15"></p>
+    <!-- 26 --> <p id="demo16"></p>
+    <!-- 27 --> <p id="demo17"></p>
+    <!-- 28 --> <p id="demo18"></p>
+    <!-- 29 --> <p id="demo19"></p>
+    <!-- 30 --> <p id="demo20"></p>
+    <!-- 31 --> <p id="demo21"></p>
+    <!-- 32 --> <button onclick="myFunction()">Click Me</button>
+    <!-- 32 --> <p id="demo22"></p>
+    <!-- 33 --> <p id="demo23"></p>
+    <!-- 34 --> <p id="demo24"></p>
+    <!-- 35 --> <button onclick="document.getElementById('demo25').innerHTML=Date()">Time</button>
+    <!-- 
+      onclick para que las cosas se muestren al apretar el boton
+      onmouseover para q se muestre cuando el mouse esta sobre el boton
+      onmouseout para q se muestre cando el mouse esta afuera del area del boton 
+    -->
+    <!-- 35 --> <p id="demo25"></p>
+    <!-- 36 --> <p id="demo26"></p>
+    <!-- 37 --> <p id="demo27"></p>
+    <!-- 38 --> <p id="demo28"></p>
+    
+
+
+
+    <script type="text/javascript">
+      // <!-- 1 -->
+      document.write(5 + 6);
+      // <!-- Para escribirlo en la pagina -->
+
+      // <!-- 2 -->
+      window.alert(5 + 6);
+      // <!-- Para escribirlo en una ventana emergente aparte -->
+
+      // <!-- 3 -->
+      document.getElementById("math").innerHTML = 6 + 3;
+      // <!-- allow us to output data in the html element -->
+
+      // <!-- 4 -->
+      document.getElementById("h").innerHTML = "Test";
+
+      // <!-- 5 -->
+      document.getElementById("math").innerHTML = 5 + 6;
+      document.getElementById("math").innerHTML = "mytext" + 6;
+      // <!-- Se unen y queda mytext6 -->
+
+      // <!-- 6 -->
+      var x = 10;
+      var y = 15;
+      var e = "Mama";
+      var z = x + y;
+      var c = e + y;
+      // <!-- variables can store a single value or multiple values -->
+      // Las variables pueden contener distintos valores como: Color, Shape, Size, Arrays, Numbers, Objects, etc
+      // text values are known as strings
+
+      // <!-- 7 -->
+      var numhats = 30 + "Hats";
+      document.getElementById("example").innerHTML = numhats;
+
+      // <!-- 8 -->
+      var x1 = 100 + 50;
+      document.getElementById("add").innerHTML = x1;
+
+      var a = 3;
+      var b = (20 + 30) * a;
+      document.getElementById("add2").innerHTML = b;
+
+      var c = 100 - 50;
+      document.getElementById("add3").innerHTML = c;
+
+      // <!-- 9 -->
+      var d = 100/50;
+      document.getElementById("divi").innerHTML = d;
+
+      var x2 = 5;
+      x2++;
+      // Para incrementar el valor por 1
+      var z1 = x;
+      document.getElementById("inc").innerHTML = z1;
+
+      var y2 = 5;
+      y2--;
+      // Para decrementar el valor por 1
+      document.getElementById("dec").innerHTML = y2;
+
+      // <!-- 10 -->
+      document.getElementById("demo").innerHTML = (50 + 200) * 3;
+
+      // <!-- 11 -->
+      var car = {type:"Acura", model:"Integra", color:"white"};
+      // corchetes para 'diccionario'
+      document.getElementById("demo1").innerHTML = car.type;
+
+      // <!-- 12 -->
+      var person = {firstName:"John", lastName:"Smith", age:60, eyeColor:"blue"}
+
+      document.getElementById("demo2").innerHTML = 
+      person.firstName + " has " + person.eyeColor + " eyes.";
+      // operaciones con objetos compuestas, se suman los valores ya sean texto o valor
+
+      // <!-- 13 -->
+      var studentName1 = "John Smith";
+      var studentName2 = 'Roy Martin';
+
+      document.getElementById("demo3").innerHTML =
+      studentName1 + "<br>" + studentName2;
+      // you can use cuotes ('',"") as long as it doesn't matches the ones used in teh string
+
+      // <!-- 14 -->
+      var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      document.getElementById("demo4").innerHTML = txt.length;
+      // Para ver el lenght, la cantidad de letras o numeros q tiene
+
+      // <!-- 15 -->
+      var y3 = "We are the best \"players\" in the country."
+      document.getElementById("demo5").innerHTML = y;
+
+      // <!-- 16 -->
+      document.getElementById("demo6").innerHTML = Math.random();
+      // To generate a random number, between 0 and 1
+
+      // <!-- 17 -->
+      document.getElementById("demo7").innerHTML = 
+      Math.min(600, 300, 50, 75, -5, -150);
+      // Para sacar el minimo de los numeros entre parentesis
+      document.getElementById("demo7").innerHTML = 
+      Math.max(600, 300, 50, 75);
+      // Para sacar el maximo de los numeros
+
+      // <!-- 18 -->
+      document.getElementById("demo8").innerHTML =  Math.round(15.4);
+      // Para redondear los decimales
+      document.getElementById("demo8").innerHTML = Math.floor(15.6);
+      // Para redondear hacia abajo, siempre
+      document.getElementById("demo8").innerHTML = Math.ceil(15.4);
+      // Para redondear hacia arriba, siempre
+
+      // <!-- 19 -->
+      var fruits = ["Apple","Orange","Pear","Grape","Tangerine","Mango"];
+      document.getElementById("demo9").innerHTML = fruits[0]
+      // [] = Para lista(Array), fruits[x], indica cual variable hay que mostrar
+
+      // <!-- 20 -->
+      document.getElementById("demo10").innerHTML = fruits.toString();
+      // Para que muestre todos los valores, seguido de una coma
+      document.getElementById("demo10").innerHTML = fruits.join(" * ");
+      // Para que cuando muestre todos los valores los separe con ese simbolo puesto
+
+      // <!-- 21 -->
+      fruits.pop();
+      // Para eliminar el ultimo elemnto de la lista
+      fruits.shift();
+      // Para eliminar el primer elemento de la lista
+      fruits.push("Cherry");
+      // Para agregar el elemento puesto al ultimo de la lista
+      fruits.unshift("Cherry");
+      // Para agregar el elemento puesto al comienzo de la lista
+      document.getElementById("demo11").innerHTML = fruits.join(" * ");
+
+      // <!-- 22 -->
+      fruits[0] = "Kiwi"
+      // Para cambiar el nombre de ese elemento seleccionado entre corchetes de la lista
+      delete fruits[2];
+      // Para eliminar el elemento seleccionado entre corchetes
+      document.getElementById("demo12").innerHTML = fruits.join(" * ");
+
+      // <!-- 23 -->
+      fruits.splice(2, 0, "Lemon", "Banana");
+      // El 2 indica desde que elementos queremos agregar, el cero que no queremos agregar mas que esos
+      document.getElementById("demo13").innerHTML = fruits.join(" * ");
+
+      // <!-- 24 -->
+      var cars = ["Volvo", "Acura", "Honda", "Lexus"];
+      cars.sort();
+      // Para ponerlo en orden alfabetico
+      cars.reverse();
+      // Para ponerlo alrevez al orden alfabetico
+      document.getElementById("demo14").innerHTML = cars;
+
+      // <!-- 25 -->
+      var Girls = ["Julie","Samantha","Laura","Jill"];
+      var Boys = ["Bob","Joe","Walt","Sam"];
+
+      var Combined = Girls.concat(Boys);
+      // Para combinar listas
+      document.getElementById("demo15").innerHTML = Combined.join(" * ");
+
+      // <!-- 26 -->
+      // Condicionales (if,else,elif)
+      var score = 65;
+
+      if(score < 50) {
+        document.write("F")
+      }
+      else if(score < 70) {
+        document.write("D")
+      }
+      else if(score < 80) {
+        document.write("C")
+      }
+      else if(score < 90) {
+        document.write("B")
+      }
+      else if(score < 100) {
+        document.write("A")
+      }
+      else {
+        document.write("Score must be less than 100")
+      }
+
+
+      // <!-- 27 -->
+      var x3 = 6;
+      document.getElementById("demo17").innerHTML = (x3 == 8);
+      // (==) Equal - True or False operation
+      document.getElementById("demo17").innerHTML = (x3 != 6);
+      // (!=) Not equal
+
+      // <!-- 28 -->
+      var b1 = boolean(80);
+      var b2 = boolean(2.86);
+      var b3 = boolean(-10);
+      var b4 = boolean("Hi");
+      var b5 = boolean('false');
+      var b6 = boolean(1 + 8 + 10.14);
+      var b7 = boolean(0);
+      // boolean para ver si es true o false
+
+      document.getElementById("demo18").innerHTML = 
+      "80 is " + b1 + "<br>" +
+      "2.86 is " + b2 + "<br>" +
+      "-10 is " + b3 + "<br>" +
+      "Any (not empty) string is " + b4 + "<br>" +
+      "The string 'false' is " + b5 + "<br>" +
+      "Any expression (except zero) is " + b6 + "<br>" +
+      "Zero is " + b7;
+
+      // <!-- 29 -->
+      var count;
+
+      for(count = 0; count <= 10; count++) {
+        // Primer valor es donde comienza, segundo valor donde terminar y el tercer valor cuanto hay que sumar en cada uno
+        document.write(count);
+        document.write("<br />");
+      }
+
+      // <!-- 30 -->
+      var txt = "";
+      var person1 = {fname:"John",lname:"Smith",age:30};
+      var x;
+      for (x in person) {
+        txt += person[x] + " ";
+      }
+      document.getElementById("demo20").innerHTML = txt;
+
+      // <!-- 31 -->
+      // while loop
+      var i = 0;
+      while (i < 20) {
+        document.write( i );
+        document.write("<br />");
+        i++;
+      }
+
+      // <!-- 32 -->
+      function myFunction() {
+        var i = 0;
+        do {
+          document.write(i+"<br>");
+          // El loop se ejecuta una vez al menos sin importar si es true o false la condicion
+          i++;
+        }
+        while (i < 10)
+        document.getElementById("demo22").innerHTML = text;
+      }
+
+      // <!-- 33 -->
+      var i;
+      for (i=0; i < 10; i++) {
+        if (i === 3) {break;}
+        // break para terminar la funcion/ el for cuando se cumpla la condicion
+        if (i === 3) {continue;}
+        // continue para continuar la funcion excepto la condicion cumplida
+        document.write(i+"<br>");
+      }
+      document.getElementById("demo23").innerHTML = text;
+
+      // <!-- 34 -->
+      // Funciones
+      function myFunction1(a, b) {
+        return a * b;
+      }
+      document.getElementById("demo20").innerHTML = myFunction1(8, 2);
+
+      // <!-- 35 -->
+
+      // <!-- 36 -->
+      // Color random en la pagina cada vez q recargas
+      var bgcolor=new Array("#029FD4", "#D43702", "#1EFF00", "#EAEAFF", "#FFEA00", "#AB5252", "#FFFFFF", "#DE28D8")
+      // Tiene los valores de colores
+
+      document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)]
+      // Para randomizar el valor/color
+
+      // <!-- 37 -->
+
+      // <!-- 38 -->
+
+
+    </script>
+
+  </body>
+</html>

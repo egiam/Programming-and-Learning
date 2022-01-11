@@ -1,0 +1,7 @@
+C:\Programming and Learning\C#ya\FOR\FOR\obj\Debug\FOR.csprojAssemblyReference.cache
+C:\Programming and Learning\C#ya\FOR\FOR\obj\Debug\FOR.csproj.CoreCompileInputs.cache
+C:\Programming and Learning\C#ya\FOR\FOR\bin\Debug\FOR.exe.config
+C:\Programming and Learning\C#ya\FOR\FOR\bin\Debug\FOR.exe
+C:\Programming and Learning\C#ya\FOR\FOR\bin\Debug\FOR.pdb
+C:\Programming and Learning\C#ya\FOR\FOR\obj\Debug\FOR.exe
+C:\Programming and Learning\C#ya\FOR\FOR\obj\Debug\FOR.pdb

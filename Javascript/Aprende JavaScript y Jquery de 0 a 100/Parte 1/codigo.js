@@ -1,0 +1,1 @@
+alert('Hola we, archivo externo');
