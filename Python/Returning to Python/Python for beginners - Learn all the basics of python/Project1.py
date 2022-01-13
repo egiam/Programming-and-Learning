@@ -47,4 +47,34 @@ numero = retornado()
 
 for x in Functions:
     print(x)
+    
+
+#para listas insert te permite insertar en cierto lugar algo
+food = ["mama","papa","lala"]
+prices = [1.22,2.11,3.44]
+
+print(food)
+
+food.insert(2,"juana")
+#[mama,papa,juana,lala]
+
+print(food)
+
+food.extend(prices)
+
+#Te da el posicionamiento en la lista 
+print(food.index("lala"))
+
+#cuenta cuantas veces el elemento esta repetido
+print(food.count("lala"))
+
+#copia
+random = food.copy()+prices.copy()
+
+print(random)
+
+#borrar todo
+food.clear()
+
+print(food)
 
